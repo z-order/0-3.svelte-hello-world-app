@@ -40,6 +40,20 @@ serve -n -s -l 3000 dist --debug
 
 <br>
 
+# src/App.svelte
+
+```svelte
+<script>
+	let name = 'world';
+</script>
+
+<h1>Hello {name}!</h1>
+```
+
+<br>
+<br>
+
+
 # And the original README.md file from `npm init vite` is as follows: <br><br> Svelte + TS + Vite
 
 This template should help get you started developing with Svelte and TypeScript in Vite.
