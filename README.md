@@ -1,4 +1,46 @@
-# Svelte + TS + Vite
+# The way of how to create project, install, and test.
+
+```sh
+[~]$ npm init vite
+
+✔ Project name: … 0-2.svelte-app
+✔ Select a framework: › Svelte
+✔ Select a variant: › TypeScript
+
+Scaffolding project in /home/.../0-2.svelte-app...
+
+Done. Now run:
+
+  cd 0-2.svelte-app
+  npm install
+  npm run dev
+```
+<br>
+
+# You can use start-app.sh to start the app in a deployed server system.
+
+```sh
+#/bin/sh
+
+# In a deploy server, and serve command can be installed using "npm install -g serve"
+
+serve -n -s -l 3000 dist
+```
+
+or for debug mode logging
+
+```sh
+#/bin/sh
+
+# In a deploy server, and serve command can be installed using "npm install -g serve"
+
+serve -n -s -l 3000 dist --debug
+
+```
+
+<br>
+
+# And the original README.md file from `npm init vite` is as follows: <br><br> Svelte + TS + Vite
 
 This template should help get you started developing with Svelte and TypeScript in Vite.
 
