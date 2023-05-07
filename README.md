@@ -3,15 +3,15 @@
 ```sh
 [~]$ npm init vite
 
-✔ Project name: … 0-2.svelte-app
+✔ Project name: … 0-3.svelte-hello-world-app
 ✔ Select a framework: › Svelte
 ✔ Select a variant: › TypeScript
 
-Scaffolding project in /home/.../0-2.svelte-app...
+Scaffolding project in /home/.../0-2.svelte-hello-world-app...
 
 Done. Now run:
 
-  cd 0-2.svelte-app
+  cd 0-2.svelte-hello-world-app
   npm install
   npm run dev
 ```
